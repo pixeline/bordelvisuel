@@ -3,7 +3,7 @@ require("class.upload.php");
 
 if($_FILES)
 {
-	$fichier = new Upload($_FILES['file']);
+	$fichier = new upload($_FILES['file']);
 
 	if($fichier->uploaded)
 	{
